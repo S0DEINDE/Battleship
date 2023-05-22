@@ -46,7 +46,6 @@ def main():
     lett_to_num = {'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'G': 6, 'H': 7}
 
     ship_creator(hidden_board)
-    display(hidden_board)
     turns = 10
     while turns > 0:
         print("Welcome to Battleship")
@@ -66,7 +65,7 @@ def main():
             print("Congrats, you have sunk all the battleships!")
             print("Thanks for playing battleship!")
             break
-        print("You have" + str(turns) + "turns left")
+        print("You have" + str(turns) + " turns left")
         if turns == 0:
             print("Sorry, no more turns remaining Game over!")
             print("Thanks for playing battleship!")
