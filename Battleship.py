@@ -40,6 +40,10 @@ def count_hits(board):
 
 
 def main():
+    print("~~~~~~~~~~~~~~~~~WELCOME TO~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~BATTLESHIP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+
     hidden_board = [[' '] * 8 for _ in range(8)]
     guess_board = [[' '] * 8 for _ in range(8)]
 
@@ -70,6 +74,8 @@ def main():
             print("Sorry, no more turns remaining Game over!")
             print("Thanks for playing battleship!")
             break
+
+    print("~~~~~~~~~~~~~~~~~~~~THANKS FOR USING MY PROGRAM!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 
 main()
